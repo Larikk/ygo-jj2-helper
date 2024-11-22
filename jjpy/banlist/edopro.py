@@ -168,7 +168,7 @@ def createPreviewLfList(cardDb, lastLfList):
 def createNextThreeLfLists(cardDb, lastLfList):
     year = parseYear(lastLfList["name"])
 
-    for i in range(3):
+    for i in range(1):
         year = int(year) + 1
         name = f"jj2-{year}-preliminary"
         enddate = endOfYear(year)
